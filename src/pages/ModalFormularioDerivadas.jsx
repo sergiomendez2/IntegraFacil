@@ -10,7 +10,7 @@ export const ModalFormularioDerivadas = ({ showModal, handleCloseModal }) => {
                     <Modal.Title>Formulario Derivadas</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Image src="public/images/formulario-derivadas.png" fluid
+                    <Image src="./images/formulario-derivadas.png" fluid
                            style={{
                                maxWidth: '100%',
                                height: '100%',

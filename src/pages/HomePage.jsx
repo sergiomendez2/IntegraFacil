@@ -4,7 +4,7 @@ export const HomePage = () => {
         <>
             <section className="welcome-page">
                 <video autoPlay muted loop id="bg-video">
-                    <source src="public/images/course-video.mp4" type="video/mp4"/>
+                    <source src="./images/course-video.mp4" type="video/mp4"/>
                 </video>
 
                 <div className="video-overlay">

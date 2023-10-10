@@ -37,7 +37,7 @@ export const SustitucionTeoria = () => {
                 La sustitución es una técnica de integración que consiste en sustituir una expresión algebraica por otra, de tal forma que la integral se transforme en otra más sencilla de resolver.
             </p>
 
-            <img src="public/images/img.png" alt="Sustitución" style={imageStyle} />
+            <img src="./images/img.png" alt="Sustitución" style={imageStyle} />
         </div>
     )
 }

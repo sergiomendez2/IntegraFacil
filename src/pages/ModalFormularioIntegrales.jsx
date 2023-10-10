@@ -10,7 +10,7 @@ export const ModalFormularioIntegrales = ({ showModal, handleCloseModal }) => {
                     <Modal.Title>Formulario Integrales</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Image src="public/images/formulario-integral.png" fluid
+                    <Image src="./images/formulario-integral.png" fluid
 
                            style={{
                                maxWidth: '100%',
