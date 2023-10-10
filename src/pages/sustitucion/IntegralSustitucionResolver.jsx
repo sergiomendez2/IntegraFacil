@@ -164,7 +164,7 @@ export const IntegralSustitucionResolver = () => {
                             }}
                         >
                             Ejercicio {userProgress.currentProblemIndex + 1} de {problems.length}
-                            {' - '}  Sustitucion {' - '}
+                            {' - '}  Sustitución {' - '}
                             Nivel : <span style={{ color: colorNivel }}>{nivelActual}</span>
                         </h1>
                     </div>

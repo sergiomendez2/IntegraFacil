@@ -31,28 +31,39 @@ export const NavBarApp = () => {
     return (
         <Navbar bg="dark" expand="lg" variant="dark">
 
-            <Navbar.Brand>
-                <Link to="/" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <span className="logo"> IntegraFácil</span>
+<Navbar.Brand>
+    <Link to="/" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center' }}>
+        <span className="logo">
+            <img
+                src="./images/UMG.png"
+                alt="umg"
+                style={{
+                    width: '150px', // Ajusta el ancho según tus preferencias
+                    height: 'auto', // Esto mantendrá la proporción
+                }}
+            />
+        </span>
+        IntegraFácil
+    </Link>
+</Navbar.Brand>
 
-                </Link>
-            </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="navbarNavDropdown"/>
             <Navbar.Collapse id="navbarNavDropdown">
 
                 <Nav>
+                   
+
+                    <Link to="/Integrales/Basica/teoria" style={sytleLink} > Integrales Básicas </Link>
+                    <Link to="/Integrales/sustitucion/teoria" style={sytleLink} > Integrales por Sustitución </Link>
+                    <Link to="/Integrales/partes/teoria" style={sytleLink} > Integrales por partes </Link>
+
                     <NavDropdown title="Formulario" id="basic-nav-dropdown" >
                         <NavDropdown.Item onClick={() => handleShowModal('derivadas')}> Para
                             Derivadas</NavDropdown.Item>
                         <NavDropdown.Item onClick={() => handleShowModal('integrales')}>Para
                             Integrales</NavDropdown.Item>
                     </NavDropdown>
-
-                    <Link to="/Integrales/Basica/teoria" style={sytleLink} > Integrales Basicas </Link>
-                    <Link to="/Integrales/sustitucion/teoria" style={sytleLink} > Integrales por Sustitucion </Link>
-                    <Link to="/Integrales/partes/teoria" style={sytleLink} > Integrales por partes </Link>
-
                 </Nav>
 
                 <ModalFormularioDerivadas showModal={showModal && modalType === 'derivadas'}

@@ -1,26 +1,13 @@
 .welcome-page {
     position: relative;
     width: 100%;
-    height: 86vh;
-    overflow: hidden;
-    background: #000;
-    margin-top: 15px;
+    height: 90vh;
 
+    background: url('./images/banner.jpg') center/cover no-repeat;;
+    background-color: #000;
 }
 
-#bg-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-}
-
-.video-overlay {
+.content-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -53,19 +40,4 @@ h1 {
 p {
     font-size: 20px;
     margin-bottom: 30px;
-}
-
-.cta-button a {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.cta-button a:hover {
-    background-color: #0056b3;
 }

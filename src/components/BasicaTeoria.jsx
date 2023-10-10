@@ -24,7 +24,7 @@ export const BasicaTeoria = () => {
 
     return (
         <div style={containerStyle}>
-            <h1 style={headerStyle}>Integral Basica - Teoría</h1>
+            <h1 style={headerStyle}>Integral Básica - Teoría</h1>
 
             <p style={textStyle}>
                 Las integrales son la herramienta para calcular «El área bajo la curva» como lo describen en ingeniería, se trata pues del espacio comprendido entre el tramo de recta real delimitado por dos puntos y los dos puntos perfectamente paralelos de la curva que está siendo estudiada. Al unir estos cuatro puntos se forma un área cerrada, gráficamente es esa una integral de una función.
