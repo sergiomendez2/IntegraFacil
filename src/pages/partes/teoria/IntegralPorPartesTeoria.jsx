@@ -1,8 +1,8 @@
-import {Link} from "react-router-dom";
 import {useState} from "react";
-import {BasicaTeoria} from "../../components/BasicaTeoria";
+import {Link} from "react-router-dom";
+import {PartesTeoria} from "../../../components/PartesTeoria.jsx";
 
-export const  IntegralBasicaTeoria = () => {
+export const IntegralPorPartesTeoria=()=>{
     const containerStyle = {
         display: 'flex',
         flexDirection: 'column',
@@ -30,8 +30,8 @@ export const  IntegralBasicaTeoria = () => {
     return (
         <div style={containerStyle}>
 
-            <BasicaTeoria />
-            <Link to="/Integrales/Basica/ejercicios">
+            <PartesTeoria/>
+            <Link to="/Integrales/partes/ejercicios">
                 <button
                     style={buttonStyle}
                     onMouseEnter={() => setIsHovered(true)}

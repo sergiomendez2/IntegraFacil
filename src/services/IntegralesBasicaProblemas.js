@@ -252,6 +252,154 @@ const problems= [
             consejo: 'Revisar las tablas ya que esta es una integral directa.',
         }
     ],
+
+    //     nivel dificil
+    [
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_1/Paso_1/Ejercicio_1_dificil.png',
+            correctOption: './images/basica/dificil/Ejercicio_1/Paso_1/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_1/Paso_1/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_1/Paso_1/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'Dividir cada elemento del numerador entre el denominador común.',
+        },
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_1/Paso_2/correcta_paso_1.png',
+            correctOption: './images/basica/dificil/Ejercicio_1/Paso_2/respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_1/Paso_2/respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_1/Paso_2/respuestas/incorrecta2.png'
+            ],
+            consejo: 'Recordar que "1/x" es una integral directa, no debemos subir la x al numerador.',
+        },
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_1/Paso_3/correcta_paso_2.png',
+            correctOption: './images/basica/dificil/Ejercicio_1/Paso_3/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_1/Paso_3/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_1/Paso_3/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'Recordar que siempre se suma un "1" al exponente y se baja el exponente al denominador con el signo que tenga.',
+        },
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_1/Paso_4/correcta_paso_4.png',
+            correctOption: './images/basica/dificil/Ejercicio_1/Paso_4/Respuestas/correcto.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_1/Paso_4/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_1/Paso_4/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'Siempre que se cambia de lugar un número o literal debe cambiarse el signo del exponente.',
+        }
+    ],
+    [
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_2/Paso_1/Ejercicio_2_dificil.png',
+            correctOption: './images/basica/dificil/Ejercicio_2/Paso_1/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_2/Paso_1/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_2/Paso_1/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'El exponente 4 afecta solo al denominador pero completo.',
+        },
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_2/Paso_2/correcta_paso_1.png',
+            correctOption: './images/basica/dificil/Ejercicio_2/Paso_2/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_2/Paso_2/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_2/Paso_2/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'Recordar que la constante afecta a todos los elementos de la integral.',
+        },
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_2/Paso_3/correcta_paso_2.png',
+            correctOption: './images/basica/dificil/Ejercicio_2/Paso_3/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_2/Paso_3/Respuestas/incorrecto1.png',
+                './images/basica/dificil/Ejercicio_2/Paso_3/Respuestas/incorrecto2.png'
+            ],
+            consejo: 'Tomar la constante de cada integral y cambiar de signo solo los exponentes que fueron intercambiados del denominador al numerador.',
+        },//falta consejo
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_2/Paso_4/correcta_paso_3.png',
+            correctOption: './images/basica/dificil/Ejercicio_2/Paso_4/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_2/Paso_4/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_2/Paso_4/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'Recordar que siempre se suma un "1" al exponente y es el mismo que va en el denominador.',
+        },
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_2/Paso_5/correcta_paso_4.png',
+            correctOption: './images/basica/dificil/Ejercicio_2/Paso_5/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_2/Paso_5/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_2/Paso_5/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'Poner atención cuando se manejan las constantes de cada parte de la respuesta.',
+        }
+    ],
+    [
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_2/Paso_1/Ejercicio_2_dificil.png',
+            correctOption: './images/basica/dificil/Ejercicio_2/Paso_1/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_2/Paso_1/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_2/Paso_1/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'El exponente 4 afecta solo al denominador pero completo.',
+        },
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_3/Paso_2/correcta.png',
+            correctOption: './images/basica/dificil/Ejercicio_3/Paso_2/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_3/Paso_2/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_3/Paso_2/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'Solo se cambia el signo del exponente si se mueve del denominador al numerador o viceversa.',
+        },
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_3/Paso_2/correcta.png',
+            correctOption: './images/basica/dificil/Ejercicio_3/Paso_2/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_3/Paso_2/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_3/Paso_2/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'Trabajar cada integral de forma individual.'
+        },
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_3/paso_4/correcta_paso_3.png',
+            correctOption: './images/basica/dificil/Ejercicio_3/paso_4/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_3/paso_4/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_3/paso_4/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'La integral de "e" elevado a un exponente es la misma función, por la derivada del exponente.',
+        },
+        {
+            nivel: 'Dificil',
+            problemImage: './images/basica/dificil/Ejercicio_3/Paso_5/correcta_paso_4.png',
+            correctOption: './images/basica/dificil/Ejercicio_3/Paso_5/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/dificil/Ejercicio_3/Paso_5/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_3/Paso_5/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'Aplicar ley de extremos y medios para simplificar la solución.',
+        }
+    ]
 ];
 
 export default problems;
