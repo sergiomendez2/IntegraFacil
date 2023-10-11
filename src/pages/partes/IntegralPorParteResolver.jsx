@@ -3,7 +3,7 @@ import {Container, Row, Col, Button} from 'react-bootstrap';
 import {toast, ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Swal from 'sweetalert2';
-import problemas from "../../services/IntegralSustitucionProblemas.js";
+import problemas from "../../services/IntegralPartesProblemas.js";
 import {shuffleArray} from "../../services/Services.js";
 
 const problems = problemas;

@@ -351,13 +351,13 @@ const problems= [
     [
         {
             nivel: 'Dificil',
-            problemImage: './images/basica/dificil/Ejercicio_2/Paso_1/Ejercicio_2_dificil.png',
-            correctOption: './images/basica/dificil/Ejercicio_2/Paso_1/Respuestas/correcta.png',
+            problemImage: './images/basica/dificil/Ejercicio_3/Paso_1/Ejercicio_3_dificil.png',
+            correctOption: './images/basica/dificil/Ejercicio_3/Paso_1/Respuestas/correcta.png',
             incorrectOptions: [
-                './images/basica/dificil/Ejercicio_2/Paso_1/Respuestas/incorrecta1.png',
-                './images/basica/dificil/Ejercicio_2/Paso_1/Respuestas/incorrecta2.png'
+                './images/basica/dificil/Ejercicio_3/Paso_1/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_3/Paso_1/Respuestas/incorrecta2.png'
             ],
-            consejo: 'El exponente 4 afecta solo al denominador pero completo.',
+            consejo: 'Separar por partes cada elemento con su propio denominador.',
         },
         {
             nivel: 'Dificil',
@@ -371,11 +371,11 @@ const problems= [
         },
         {
             nivel: 'Dificil',
-            problemImage: './images/basica/dificil/Ejercicio_3/Paso_2/correcta.png',
-            correctOption: './images/basica/dificil/Ejercicio_3/Paso_2/Respuestas/correcta.png',
+            problemImage: './images/basica/dificil/Ejercicio_3/Paso_3/correcta_paso_2.png',
+            correctOption: './images/basica/dificil/Ejercicio_3/Paso_3/Respuestas/correcta.png',
             incorrectOptions: [
-                './images/basica/dificil/Ejercicio_3/Paso_2/Respuestas/incorrecta1.png',
-                './images/basica/dificil/Ejercicio_3/Paso_2/Respuestas/incorrecta2.png'
+                './images/basica/dificil/Ejercicio_3/Paso_3/Respuestas/incorrecta1.png',
+                './images/basica/dificil/Ejercicio_3/Paso_3/Respuestas/incorrecta2.png'
             ],
             consejo: 'Trabajar cada integral de forma individual.'
         },
