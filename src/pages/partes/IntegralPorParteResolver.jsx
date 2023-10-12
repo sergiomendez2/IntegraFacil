@@ -199,7 +199,7 @@ export const IntegralPorPartesResolver = () => {
                                 />
                             )}
 
-                            <span style={{color: '#fff', fontSize: '20px', fontWeight: 'bold', marginBottom: '10px'}}> Seleccione la respuesta</span>
+                            <span style={{color: '#fff', fontSize: '15px', fontWeight: 'bold', marginBottom: '10px', textAlign:'center'}}> {currentStepData.message}</span>
 
                             <div style={{display: 'flex', justifyContent: 'center'}}>
                                 {options.map((option, index) => (

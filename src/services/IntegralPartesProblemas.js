@@ -3,6 +3,7 @@ const problems= [
     [
 
         {
+            message: 'Seleccione la correcta sustitución para u y dv',
             nivel: 'Facil',
             problemImage: './images/parte/facil/Paso_1/Ejercicio.png',
             correctOption: './images/parte/facil/Paso_1/respuestas/Correcto.png',
@@ -13,6 +14,7 @@ const problems= [
             consejo: 'Verifica tu funcion, ten un analisis de cual puede ser tu sustitución en "u" y cual puede ser tu sustitución en "dv" ya que este determina el resultado de tu integración.',
         },
         {
+            message: 'Seleccione la correcta sustitución en el método de integración por partes para u, du,v y dv.',
             nivel: 'Facil',
             problemImage: './images/parte/facil/Paso_2/Paso_2.png',
             correctOption: './images/parte/facil/Paso_2/Respuestas/Correcto.png',
@@ -23,6 +25,7 @@ const problems= [
             consejo: 'Revisa los signos al igual que tu sustitución de tus variables si se encuentran en la pocicion correcta.',
         },
         {
+            message: 'Seleccione la respuesta de la integral mostrada. ',
             nivel: 'Facil',
             problemImage: './images/parte/facil/Paso_3/Paso_3.png',
             correctOption: './images/parte/facil/Paso_3/Respuestas/Correcto.png',
@@ -33,6 +36,7 @@ const problems= [
             consejo: 'Recuerda operar bien los signos, verificar que tus integrales sean las correctas despues de haberlas efectuado.',
         },
         {
+            message: 'Seleccione la respuesta simplificada de la función mostrada.',
             nivel: 'Facil',
             problemImage: './images/parte/facil/Paso_4/Paso_4.png',
             correctOption: './images/parte/facil/Paso_4/Respuestas/Correcto.png',
@@ -46,6 +50,7 @@ const problems= [
     // Nivel Intermedio
     [
         {
+            message: 'Seleccione la correcta sustitución para u y dv',
             nivel: 'Intermedio',
             problemImage: './images/parte/intermedia/Paso_1/Ejercicio.png',
             correctOption: './images/parte/intermedia/Paso_1/Respuestas/Correcto.png',
@@ -56,6 +61,7 @@ const problems= [
             consejo: 'Recuerda que la derivada del logaritmo natural de una variable es diferente al logaritmo natural de un funcion.',
         },
         {
+            message: 'Seleccione la correcta sustitución en el método de integración por partes para u, du,v y dv.',
             nivel: 'Intermedio',
             problemImage: './images/parte/intermedia/Paso_2/Paso_2.png',
             correctOption: './images/parte/intermedia/Paso_2/Respuestas/Correcto.png',
@@ -66,6 +72,7 @@ const problems= [
             consejo: 'Antes de sustituir en la formula revisa que todo este completo, revisa signos y variables.',
         },
         {
+            message: 'Seleccione la integral equivalente a la integral mostrada.',
             nivel: 'Intermedio',
             problemImage: './images/parte/intermedia/Paso_3/Paso_3.png',
             correctOption: './images/parte/intermedia/Paso_3/Respuestas/Correcto.png',
@@ -76,6 +83,7 @@ const problems= [
             consejo: 'El resultado de una multiplicacion, si tiene un numerador y un mismo denominador puedes hacer una cancelacion, revisa tus numeradores y denominadores.',
         },
         {
+            message: 'Seleccione la respuesta de la integral mostrada.',
             nivel: 'Intermedio',
             problemImage: './images/parte/intermedia/Paso_4/Paso_4.png',
             correctOption: './images/parte/intermedia/Paso_4/Respuestas/Correcta.png',
@@ -89,6 +97,7 @@ const problems= [
     // Nivel Dificil
     [
         {
+            message: 'Seleccione la correcta sustitución para u y dv',
             nivel: 'Dificil',
             problemImage: './images/parte/dificil/Paso_1/Ejercicio.png',
             correctOption: './images/parte/dificil/Paso_1/Respuestas/Correcto.png',
@@ -99,6 +108,7 @@ const problems= [
             consejo: 'En una derivada el exponente es restado, al igual que las integrales ya definidas de un coseno es seno positivo.',
         },
         {
+            message: 'Seleccione la correcta sustitución en el método de integración por partes para u, du,v y dv.',
             nivel: 'Dificil',
             problemImage: './images/parte/dificil/Paso_2/Paso_2.png',
             correctOption: './images/parte/dificil/Paso_2/Respuestas/Correcta.png',
@@ -109,6 +119,7 @@ const problems= [
             consejo: 'Una varible "x" no puede salir fuera de la integral, revisa tus multiplicaciones una variable no se puede multiplicar con una funcion y volverla al cuadrado.',
         },
         {
+            message: 'Seleccione la correcta sustitución para u y dv. (segunda sustitución)',
             nivel: 'Dificil',
             problemImage: './images/parte/dificil/Paso_3/Paso_3.png',
             correctOption: './images/parte/dificil/Paso_3/Respuestas/Correcto.png',
@@ -119,6 +130,7 @@ const problems= [
             consejo: 'Considera bien que parte sera "u" y que parte dera "dv" ordena y opera, asi mismo una integral definida no se puede cambiar de signo, revisa tu procedimiento para que no tengas inconvenientes.',
         },
         {
+            message: 'Seleccione la correcta sustitución en el método de integración por partes para u, du,v y dv. (segunda sustitución).',
             nivel: 'Dificil',
             problemImage: './images/parte/dificil/Paso_4/Paso_4.png',
             correctOption: './images/parte/dificil/Paso_4/Respuestas/Correcto.png',
@@ -129,6 +141,7 @@ const problems= [
             consejo: 'Ten en consideracion el cambio de signo al hacer operaciones ya que estos pueden alterar tu resultado final.',
         },
         {
+           message: 'Seleccione la respuesta de la integral mostrada.',
             nivel: 'Dificil',
             problemImage: './images/parte/dificil/Paso_5/Paso_5.png',
             correctOption: './images/parte/dificil/Paso_5/Respuetas/Correcto.png',
@@ -139,6 +152,7 @@ const problems= [
             consejo: 'Recuerda tener siempre presente los signos en las operaciones, en multiplicaciones no puedes eliminar factores, es necesario que sean semejantes para que puede efectar eliminaciones, cuando tengas exponentes no puesdes simplemente eliminar, te aconsejamos que reveses tus procedimientos y los signos.',
         },
         {
+            message: 'Seleccione la respuesta simplificada de la función mostrada.',
             nivel: 'Dificil',
             problemImage: './images/parte/dificil/Paso_6/Paso_6.png',
             correctOption: './images/parte/dificil/Paso_6/Respuestas/Correcta.png',
