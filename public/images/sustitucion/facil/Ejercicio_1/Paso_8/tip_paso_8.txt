@@ -1,0 +1,7 @@
+Encabezado:
+se presentan tres respuestas son sus sustituciones correspondientes escoge el correcto
+
+
+
+consejo:
+Los exponentes al integrar se les suma uno y esto no cambia al efectuar las sustituciones correspondientes, verifica tus exponentes y tus signos.

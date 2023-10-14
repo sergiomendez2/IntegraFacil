@@ -10,13 +10,15 @@ export const PartesTeoria = () => {
     };
 
     const leftColumnStyle = {
-        flex: 1,
+        flex: '1',
         padding: '20px',
+        width: '100%',
     };
 
     const rightColumnStyle = {
-        flex: 1,
+        flex: '1',
         padding: '20px',
+        width: '100%',
     };
 
     const headerStyle = {
@@ -47,9 +49,30 @@ export const PartesTeoria = () => {
         boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
     };
 
+    // CSS en línea para pantallas pequeñas
+    const mobileStyles = {
+        containerStyle: {
+            flexWrap: 'wrap',
+        },
+        leftColumnStyle: {
+            flex: '1',
+            padding: '20px',
+            width: '100%', // Añade un ancho del 100% para que ocupe toda la pantalla en dispositivos móviles.
+        },
+        rightColumnStyle: {
+            flex: '1',
+            padding: '20px',
+            width: '100%', // Añade un ancho del 100% para que ocupe toda la pantalla en dispositivos móviles.
+        },
+        // Ajusta otros estilos según sea necesario para dispositivos móviles.
+    };
+
+    // Aplicar los estilos en línea en función de la ventana de visualización.
+    const stylesToApply = window.innerWidth < 768 ? mobileStyles : {};
+
     return (
-        <div style={containerStyle}>
-            <div style={leftColumnStyle}>
+        <div style={{ ...containerStyle, ...stylesToApply.containerStyle }}>
+            <div style={{ ...leftColumnStyle, ...stylesToApply.leftColumnStyle }}>
                 <h1 style={headerStyle}>Integral por Partes - Teoría</h1>
 
                 <p style={textStyle}>
@@ -62,8 +85,7 @@ export const PartesTeoria = () => {
                 </ul>
             </div>
 
-            <div style={rightColumnStyle}>
-
+            <div style={{ ...rightColumnStyle, ...stylesToApply.rightColumnStyle }}>
                 <p style={textStyle}>
                     Una forma práctica de poder elegir qué tomar como 𝑢 es utilizando el análisis por medio de ILATE
                 </p>

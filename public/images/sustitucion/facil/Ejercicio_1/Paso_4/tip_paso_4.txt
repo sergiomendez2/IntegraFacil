@@ -1,0 +1,5 @@
+encabezado:
+escoja le integral con la sustitución correspondiente.
+
+
+consejo:Las sustituciones dependen de la forma en que tomaste tu variable “u” y de la forma que integraste en el paso anterior.

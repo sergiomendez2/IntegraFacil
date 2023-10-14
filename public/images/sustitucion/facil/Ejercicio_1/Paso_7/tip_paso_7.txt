@@ -1,0 +1,6 @@
+encabezado:
+Se presentan tres resultados de integración escoge el correcto
+
+
+consejo:
+Recuerda al integrar al exponente se le suma uno, cuando tengas una fracción como denominador puedes usar la ley del sándwich para que te quede una fracción simple.

@@ -1,0 +1,27 @@
+Encabezados
+-------------------------------------------------------------------------------------
+paso 1: De las sustituciones siguientes seleccione la correcta.
+
+paso 2: Se le presenta tres respuestas diferentes selecciona la correcta.
+
+paso 3: Escoja la integral con las sustituciones correctas
+
+paso 4: Escoja la simplificación correcta de la integral anterior
+
+paso 5:Escoja la respuesta correcta de la integral anterior
+
+
+
+
+-------------------------------------------------------------------------------------
+consejos
+-------------------------------------------------------------------------------------
+paso 1: escoge bien que será “u” y que será “dv” ya que esto define el resultado de tu integral.
+
+paso 2: recuerda que la derivada del logaritmo natural de una variable es diferente al logaritmo natural de una función.
+
+paso 3: : antes de sustituir en la formula revisa que todo este completo, revisa signos y variables.
+
+paso 4: : El resultado de una multiplicación si tiene un numerador y un mismo denominador puedes hacer una cancelación, revisa tus numeradores y denominadores.
+
+paso 5: : Hay integrales que son directas, “uno" dividido "x" es un es un caso de integración directa, sabiendo que la derivada de (lnx) es igual a "uno" dividido "x", la integral seria "lnx".

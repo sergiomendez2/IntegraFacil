@@ -1,0 +1,5 @@
+encabezado:
+se le presentan tres despejes seleccione el correcto
+
+
+consejo:Recuerda que estamos despejando la variable x para dejarlo todo en términos de una misma variable.

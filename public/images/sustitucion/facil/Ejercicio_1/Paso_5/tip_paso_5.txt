@@ -1,0 +1,7 @@
+Encabezado:
+Se te plantean tres multiplicaciones selecciona la correcta.
+
+
+
+consejo:
+Después de tener la integral con su respectiva sustitución recuerda operar para tener una integral más fácil de resolver.

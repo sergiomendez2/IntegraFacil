@@ -14,7 +14,7 @@ const problems= [
             consejo: 'Si el exponente esta en el denominador debemos subirlo al numerador con signo contrario al que tenemos, es decir si es positivo debe pasar negativo.',
         },
         {
-            message: 'Seleccione el resultado de la integral mostrada.',
+            message: 'Aplicando las reglas de integracion basica indique cual de las tres opciones es la correcta.',
             nivel: 'Facil',
             problemImage: './images/basica/facil/Ejercicio_1/Paso_2/paso_2.png',
             correctOption: './images/basica/facil/Ejercicio_1/Paso_2/Respuestas_2/correcta.png',
@@ -25,7 +25,7 @@ const problems= [
             consejo: 'Se debe sumar 1 al exponente y el nuevo exponente se coloca en el denominador.',
         },
         {
-            message: 'Seleccione la respuesta simplificada de la función',
+            message: 'Seleccione la respuesta simplificada de la función mostrada.',
             nivel: 'Facil',
             problemImage: './images/basica/facil/Ejercicio_1/Paso_3/paso_3.png',
             correctOption: './images/basica/facil/Ejercicio_1/Paso_3/Respuestas_3/correcta.png',
@@ -61,7 +61,7 @@ const problems= [
             consejo: 'Se debe operar las literales con sus exponentes, si son de igual literal multiplicado por diferente exponente, copia la literal y se suman los exponentes.',
         },
         {
-            message: 'Seleccione la respuesta de la integral mostrada.',
+            message: 'Aplicando las reglas de integracion basica indique cual de las tres opciones es la correcta.',
             nivel: 'Facil',
             problemImage: './images/basica/facil/Ejercicio_2/paso_3/paso_3.png',
             correctOption: './images/basica/facil/Ejercicio_2/paso_3/Respuestas/correcto.png',
@@ -72,7 +72,7 @@ const problems= [
             consejo: 'Debemos sumar 1 al exponente y dividir dentro del nuevo exponente.',
         },
         {
-            message: 'Seleccione la respuesta simplificada de la función.',
+            message: 'Aplicando la división de fracciones seleccione la respuesta correcta',
             nivel: 'Facil',
             problemImage: './images/basica/facil/Ejercicio_2/Paso_4/paso_4.png',
             correctOption: './images/basica/facil/Ejercicio_2/Paso_4/Respuestas/correcta.png',
@@ -81,6 +81,17 @@ const problems= [
                 './images/basica/facil/Ejercicio_2/Paso_4/Respuestas/incorrecta2.png'
             ],
             consejo: 'Aplicar la ley de extremos y medios para resolver las fracciones.',
+        },
+        {
+            message: 'Seleccione la respuesta simplificada de la función mostrada.',
+            nivel: 'Facil',
+            problemImage: './images/basica/facil/Ejercicio_2/Paso_5/correcta_paso_4.png',
+            correctOption: './images/basica/facil/Ejercicio_2/Paso_5/Respuestas/correcta.png',
+            incorrectOptions: [
+                './images/basica/facil/Ejercicio_2/Paso_5/Respuestas/incorrecta1.png',
+                './images/basica/facil/Ejercicio_2/Paso_5/Respuestas/incorrecta2.png'
+            ],
+            consejo: 'Realizar la división correspondiente del numerador con el denominador.',
         }
     ],
 
@@ -97,7 +108,7 @@ const problems= [
             consejo: 'Al ser una constante lo que está dentro de la integral se puede sacar directamente de la integral.',
         },
         {
-            message: 'Seleccione la respuesta de la integral mostrada.',
+            message: 'Aplicando las reglas de integracion basica indique cual de las tres opciones es la correcta.',
             nivel: 'Facil',
             problemImage: './images/basica/facil/Ejercicio_3/Paso_2/paso_2.png',
             correctOption: './images/basica/facil/Ejercicio_3/Paso_2/Respuestas/correcto.png',
@@ -122,7 +133,7 @@ const problems= [
             consejo: 'En ese caso solo se saca la constante.',
         },
         {
-            message: 'Seleccione la respuesta de la integral mostrada.',
+            message: 'Aplicando las reglas de integracion basica indique cual de las tres opciones es la correcta.',
             nivel: 'Facil',
             problemImage: './images/basica/facil/Ejercicio_4/Paso_2/paso_2.png',
             correctOption: './images/basica/facil/Ejercicio_4/Paso_2/Respuestas/correcto.png',
@@ -159,7 +170,7 @@ const problems= [
             consejo: 'Simplificar cada elemento de manera individual.',
         },
         {
-            message: 'Seleccione la respuesta de la integral mostrada.',
+            message: 'Aplicando las reglas de integracion basica indique cual de las tres opciones es la correcta.',
             nivel: 'Intermedio',
             problemImage: './images/basica/intermedio/Ejercicio_1/Paso_3/paso_2_correcta.png',
             correctOption: './images/basica/intermedio/Ejercicio_1/Paso_3/Respuestas/correcta.png',
@@ -206,7 +217,7 @@ const problems= [
             consejo: 'Dividir cada término de la integral en integrales individuales.',
         },
         {
-            message: 'Seleccione la respuesta de la integral mostrada.',
+            message: 'Aplicando las reglas de integracion basica indique cual de las tres opciones es la correcta.',
             nivel: 'Intermedio',
             problemImage: './images/basica/intermedio/Ejercicio_2/Paso_3/paso_2_correcta.png',
             correctOption: './images/basica/intermedio/Ejercicio_2/Paso_3/Respuestas/correcta.png',
@@ -265,7 +276,7 @@ const problems= [
             consejo: 'Utilizar la sustitución trigonométrica adecuada.',
         },
         {
-            message: 'Seleccione la respuesta de la integral mostrada.',
+            message: 'Aplicando las reglas de integracion basica indique cual de las tres opciones es la correcta.',
             nivel: 'Intermedio',
             problemImage: './images/basica/intermedio/Ejercicio_3/Paso_4/paso_3_correcta.png',
             correctOption: './images/basica/intermedio/Ejercicio_3/Paso_4/Respuestas/correcta.png',
@@ -302,7 +313,7 @@ const problems= [
             consejo: 'Recordar que "1/x" es una integral directa, no debemos subir la x al numerador.',
         },
         {
-            message: 'Seleccione la respuesta de la integral mostrada.',
+            message: 'Aplicando las reglas de integracion basica indique cual de las tres opciones es la correcta.',
             nivel: 'Dificil',
             problemImage: './images/basica/dificil/Ejercicio_1/Paso_3/correcta_paso_2.png',
             correctOption: './images/basica/dificil/Ejercicio_1/Paso_3/Respuestas/correcta.png',
@@ -359,7 +370,7 @@ const problems= [
             consejo: 'Tomar la constante de cada integral y cambiar de signo solo los exponentes que fueron intercambiados del denominador al numerador.',
         },
         {
-            message: 'Seleccione la respuesta de la integral mostrada.',
+            message: 'Aplicando las reglas de integracion basica indique cual de las tres opciones es la correcta',
             nivel: 'Dificil',
             problemImage: './images/basica/dificil/Ejercicio_2/Paso_4/correcta_paso_3.png',
             correctOption: './images/basica/dificil/Ejercicio_2/Paso_4/Respuestas/correcta.png',
@@ -416,7 +427,7 @@ const problems= [
             consejo: 'Trabajar cada integral de forma individual.'
         },
         {
-            message: 'Seleccione la repuesta de las integrales mostradas.',
+            message: 'Aplicando las reglas de integracion basica indique cual de las tres opciones es la correcta.',
             nivel: 'Dificil',
             problemImage: './images/basica/dificil/Ejercicio_3/paso_4/correcta_paso_3.png',
             correctOption: './images/basica/dificil/Ejercicio_3/paso_4/Respuestas/correcta.png',

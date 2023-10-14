@@ -1,0 +1,1 @@
+Realizar la división correspondiente del numerador con el denominador.

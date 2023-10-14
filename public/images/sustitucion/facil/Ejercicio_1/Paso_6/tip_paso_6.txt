@@ -1,0 +1,6 @@
+Encabezado:
+Escoge la integral equivalente 
+
+
+consejo:
+Recuerda que al efectuar una multiplicación los exponentes se suman, te recomendamos que revises tus exponentes y tus signos dentro de tu integral.

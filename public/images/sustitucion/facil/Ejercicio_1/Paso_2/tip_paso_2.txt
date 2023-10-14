@@ -1,0 +1,5 @@
+encabezado:
+seleccione el resultado correcto de sustitución
+
+consejo:
+Recuerda que las sustituciones se derivan, al derivar al exponente se le resta uno.
