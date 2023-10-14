@@ -89,7 +89,7 @@ export const PartesTeoria = () => {
                 <p style={textStyle}>
                     Una forma práctica de poder elegir qué tomar como 𝑢 es utilizando el análisis por medio de ILATE
                 </p>
-                <img src="./images/ilate.png" alt="Sustitución" style={imageStyle2} />
+                <img src="./images/img_2.png" alt="Sustitución" style={imageStyle2} />
             </div>
         </div>
     );
