@@ -20,7 +20,7 @@ const problems = [
             correctOption: './images/sustitucion/facil/Ejercicio_1/Paso_2/Respuestas/correcta.png',
             incorrectOptions: [
                 './images/sustitucion/facil/Ejercicio_1/Paso_2/Respuestas/incorrecta1.png',
-                './images/sustitucion/facil/Ejercicio_1/Paso_2/Respuestas/incorrecta2.pngg'
+                './images/sustitucion/facil/Ejercicio_1/Paso_2/Respuestas/incorrecta2.png'
             ],
             consejo: 'Recuerda que las sustituciones se derivan, al derivar al exponente se le resta uno.',
         },
