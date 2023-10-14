@@ -282,9 +282,6 @@ export const IntegralSustitucionResolver = () => {
                                             style={{
                                                 maxWidth: '60%',
                                                 maxHeight: '70px',
-                                                borderRadius: '8px',
-                                                boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
-
                                             }}
                                         />
                                     </li>
