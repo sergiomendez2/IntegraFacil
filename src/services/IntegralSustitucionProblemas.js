@@ -83,7 +83,7 @@ const problems = [
             message: 'se presentan tres respuestas son sus sustituciones correspondientes escoge el correcto.',
             nivel: 'Facil',
             problemImage: './images/sustitucion/facil/Ejercicio_1/Paso_8/correcta_paso_7.png',
-            correctOption: './images/sustitucion/facil/Ejercicio_1/Paso_8/Respuestas/correcta.png',
+            correctOption: './images/sustitucion/facil/Ejercicio_1/Paso_8/Respuestas/correcto.png',
             incorrectOptions: [
                 './images/sustitucion/facil/Ejercicio_1/Paso_8/Respuestas/incorrecta1.png',
                 './images/sustitucion/facil/Ejercicio_1/Paso_8/Respuestas/incorrecta2.png'
@@ -280,7 +280,7 @@ const problems = [
             message: 'Seleccione la integral equivalente a la integral anterior.',
             nivel: 'Intermedio',
             problemImage: './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/ejercicio_2_intermedio.png',
-            correctOption: './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/Correcto.png',
+            correctOption: './images/sustitucion/facil/Ejercicio_2/Paso_1/Respuestas/correcta.png',
             incorrectOptions: [
                 './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/incorrecta1.png',
                 './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/Incorrecto2.png'
