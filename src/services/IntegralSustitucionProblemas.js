@@ -246,7 +246,7 @@ const problems = [
             problemImage: './images/sustitucion/Intermedio/Ejercicio_1/Paso_6/correcta_paso_5.png',
             correctOption: './images/sustitucion/Intermedio/Ejercicio_1/Paso_6/Respuestas/correcta.png',
             incorrectOptions: [
-                './images/sustitucion/Intermedio/Ejercicio_1/Paso_6/Repuestas/incorrecta1.png',
+                './images/sustitucion/Intermedio/Ejercicio_1/Paso_6/Respuestas/incorrecta1.png',
                 './images/sustitucion/Intermedio/Ejercicio_1/Paso_6/Respuestas/incorrecta2.png'
             ],
             consejo: 'Al integrar el exponente se le suma uno, esto mismo lo Tenes que operar en el denominador, luego de haber hecho los pasos anteriores, la constate que está fuera de la integral la debes de multiplicar por el resultado que te dio al resolver la integral.',
@@ -257,7 +257,7 @@ const problems = [
             problemImage: './images/sustitucion/Intermedio/Ejercicio_1/Paso_7/correcta_paso_6.png',
             correctOption: './images/sustitucion/Intermedio/Ejercicio_1/Paso_7/Respuestas/correcta.png',
             incorrectOptions: [
-                './images/sustitucion/Intermedio/Ejercicio_1/Paso_7/Repuestas/incorrecta1.png',
+                './images/sustitucion/Intermedio/Ejercicio_1/Paso_7/Respuestas/incorrecta1.png',
                 './images/sustitucion/Intermedio/Ejercicio_1/Paso_7/Respuestas/incorrecta2.png'
             ],
             consejo: 'Revisa tus exponentes ya que estes tienen que ser equivalentes a los exponentes del resultado de tu integración.',
@@ -268,7 +268,7 @@ const problems = [
             problemImage: './images/sustitucion/Intermedio/Ejercicio_1/Paso_8/correcta_paso_7.png',
             correctOption: './images/sustitucion/Intermedio/Ejercicio_1/Paso_8/Respuestas/correcta.png',
             incorrectOptions: [
-                './images/sustitucion/Intermedio/Ejercicio_1/Paso_8/Repuestas/incorrecta1.png',
+                './images/sustitucion/Intermedio/Ejercicio_1/Paso_8/Respuestas/incorrecta1.png',
                 './images/sustitucion/Intermedio/Ejercicio_1/Paso_8/Respuestas/incorrecta2.png'
             ],
             consejo: 'Al finalizar sustituye las variables que tienes, estas colócalas con el mismo signo que tenían en la función original más la constante de integración que es "c".',
