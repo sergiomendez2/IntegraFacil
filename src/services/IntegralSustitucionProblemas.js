@@ -280,7 +280,7 @@ const problems = [
             message: 'Seleccione la integral equivalente a la integral anterior.',
             nivel: 'Intermedio',
             problemImage: './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/ejercicio_2_intermedio.png',
-            correctOption: './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/incorrecta1.png',
+            correctOption: './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/correcta.png',
             incorrectOptions: [
                 './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/incorrecta1.png',
                 './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/incorrecto2.png'
