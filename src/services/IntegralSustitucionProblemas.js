@@ -280,10 +280,10 @@ const problems = [
             message: 'Seleccione la integral equivalente a la integral anterior.',
             nivel: 'Intermedio',
             problemImage: './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/ejercicio_2_intermedio.png',
-            correctOption: './images/sustitucion/facil/Ejercicio_2/Paso_1/Respuestas/correcta.png',
+            correctOption: './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/incorrecta1.png',
             incorrectOptions: [
                 './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/incorrecta1.png',
-                './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/Incorrecto2.png'
+                './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/incorrecto2.png'
             ],
             consejo: 'Para hacer una integral más fácil de resolver déjala lineal, al pasar un denominar como numerador el exponente se coloca negativo.',
         },
