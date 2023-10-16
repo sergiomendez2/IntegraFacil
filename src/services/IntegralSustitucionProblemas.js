@@ -246,7 +246,7 @@ const problems = [
             problemImage: './images/sustitucion/Intermedio/Ejercicio_1/Paso_6/correcta_paso_5.png',
             correctOption: './images/sustitucion/Intermedio/Ejercicio_1/Paso_6/Respuestas/correcta.png',
             incorrectOptions: [
-                './images/sustitucion/Intermedio/Ejercicio_1/Paso_6/Respuestas/incorrecta1.png',
+                './images/sustitucion/Intermedio/Ejercicio_1/Paso_6/Repuestas/incorrecta1.png',
                 './images/sustitucion/Intermedio/Ejercicio_1/Paso_6/Respuestas/incorrecta2.png'
             ],
             consejo: 'Al integrar el exponente se le suma uno, esto mismo lo Tenes que operar en el denominador, luego de haber hecho los pasos anteriores, la constate que está fuera de la integral la debes de multiplicar por el resultado que te dio al resolver la integral.',
