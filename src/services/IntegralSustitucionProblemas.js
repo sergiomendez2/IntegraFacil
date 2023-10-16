@@ -283,7 +283,7 @@ const problems = [
             correctOption: './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/correcta.png',
             incorrectOptions: [
                 './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/incorrecta1.png',
-                './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/incorrecto2.png'
+                './images/sustitucion/Intermedio/Ejercicio_2/Paso_1/Respuestas/incorrecta2.png'
             ],
             consejo: 'Para hacer una integral más fácil de resolver déjala lineal, al pasar un denominar como numerador el exponente se coloca negativo.',
         },

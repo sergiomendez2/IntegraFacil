@@ -41,14 +41,6 @@ export const PartesTeoria = () => {
         boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
     };
 
-    const imageStyle2 = {
-        maxWidth: '100%',
-        height: '50%',
-        margin: '20px 0',
-        borderRadius: '5px',
-        boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-    };
-
     // CSS en línea para pantallas pequeñas
     const mobileStyles = {
         containerStyle: {
@@ -89,7 +81,13 @@ export const PartesTeoria = () => {
                 <p style={textStyle}>
                     Una forma práctica de poder elegir qué tomar como 𝑢 es utilizando el análisis por medio de ILATE
                 </p>
-                <img src="./images/img_2.png" alt="Sustitución" style={imageStyle2} />
+                <ul style={textStyle}>
+                    <li><strong style={{ color: 'red' }}>I - </strong>  <strong style={{ color: 'red' }}>Inversas</strong></li>
+                    <li><strong style={{ color: 'purple' }}>L - </strong>  <strong style={{ color: 'purple' }}>Logarítmicas</strong></li>
+                    <li><strong style={{ color: 'magenta' }}>A - </strong>  <strong style={{ color: 'magenta' }}>Algebraicas</strong></li>
+                    <li><strong style={{ color: 'limegreen' }}>T - </strong>  <strong style={{ color: 'limegreen' }}>Trigonométricas</strong></li>
+                    <li><strong style={{ color: 'orange' }}>E - </strong>  <strong style={{ color: 'orange' }}>Exponenciales</strong></li>
+                </ul>
             </div>
         </div>
     );
